@@ -57,8 +57,6 @@ class KeyboardListenerTest {
             //   int b = Integer.parseInt(e);
             KeyboardListener instance = new KeyboardListener();
             instance.keyPressed(e);
-            //Assertions.assertEquals(threadsControllerTester.directionSnake=1,keyboardListener.equals(threadsControllerTester.directionSnake!=2));
-            //assertEquals(threadsControllerTester.directionSnake=1, instance.equals(e));
             assertEquals((39), instance.equals(ThreadsController.directionSnake = 1));
             assertTrue((39) == (ThreadsController.directionSnake = 1));
 
